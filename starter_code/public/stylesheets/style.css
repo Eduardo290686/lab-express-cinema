@@ -170,18 +170,21 @@ html {
 /********************movies************************/
 
 #movies-page-container {
-  padding: 5rem 5rem;
+  padding-top: 5rem;
+  background: rgb(238, 138, 188);
 }
 
 #movies-page-container h2 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  margin-left: 4rem;
 }
 
 #movies-page-container h3 {
   font-size: 2rem;
   margin-bottom: 4rem;
+  margin-left: 4rem;
 }
 
 #movies-container {
@@ -209,4 +212,56 @@ html {
 
 #movies-container a {
   font-size: 1.8rem;
+}
+
+/**************movie**************/
+
+#movie-container {
+  display: flex;
+  justify-content: center;
+  padding: 15rem 0;
+}
+
+#image-container img {
+  width: 20rem;
+}
+
+#info-container {
+  padding-left: 5rem;
+}
+
+#info-container a {
+  font-size: 1.6rem;
+}
+
+#movie-title {
+  margin: 2rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+#director {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+#stars-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+#stars-list {
+  margin-bottom: 2rem;
+}
+
+#stars {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+#description {
+  width: 70rem;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
 }

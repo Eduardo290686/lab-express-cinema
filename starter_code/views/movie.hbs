@@ -1,17 +1,17 @@
-<div id='movie-container'>
+<div id='movie-container' class='full-page-container'>
   <div id='image-container'>
     <img src={{movie.image}} />
   </div>
   <div id='info-container'>
-    <a href="">Go back</a>
-    <h4>{{movie.title}}</h4>
-    <p>Director: {{movie.director}}</p>
-    <p>Stars</p>
-    <ul>
+    <a href="/movies">Go back</a>
+    <h4 id='movie-title'>{{movie.title}}</h4>
+    <p id='director'>Director: {{movie.director}}</p>
+    <p id='stars-title'>Stars</p>
+    <ul id='stars-list'>
       {{#each movie.stars}}
-      <li>{{this}}</li>
+      <li id='stars'>{{this}}</li>
       {{/each}}
     </ul>
-    <p>{{movie.description}}</p>
+    <p id='description'>{{movie.description}}</p>
   </div>
 </div>
